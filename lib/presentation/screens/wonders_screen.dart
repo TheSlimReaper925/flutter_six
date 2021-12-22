@@ -30,7 +30,6 @@ class WondersScreen extends StatelessWidget {
           Marker(
             markerId: MarkerId(currentWonder.name),
             position: currentWonder.latLong,
-            // icon: BitmapDescriptor.,
             infoWindow: InfoWindow(
               title: currentWonder.name,
               snippet: currentWonder.description,
